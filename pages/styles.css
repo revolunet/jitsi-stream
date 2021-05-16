@@ -1,0 +1,15 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#largeVideo,
+#largeVideoWrapper {
+  text-align: center;
+}
+
+#largeVideo {
+  object-fit: cover;
+  max-width: 100%;
+}
