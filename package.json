@@ -1,4 +1,7 @@
 {
+  "name": "jitsi-stream",
+  "homepage": "https://revolunet.github.io/jitsi-stream",
+  "private": true,
   "dependencies": {
     "jquery": "^3.6.0",
     "next": "^10.2.0",

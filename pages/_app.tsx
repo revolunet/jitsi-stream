@@ -4,6 +4,7 @@ import "./styles.css";
 
 function MyApp({ Component, pageProps }) {
   if (typeof window !== "undefined") {
+    //@ts-expect-error
     window.$ = jquery;
   }
   return <Component {...pageProps} />;
