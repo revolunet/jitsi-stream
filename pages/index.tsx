@@ -13,7 +13,7 @@ const StartButton = () => {
     const name = "test-sre";
     const newConference = await startStreamToConference(name);
     setReady(true);
-    const url = `${document.location.protocol}//${document.location.hostname}:${document.location.port}/play#${name}`;
+    const url = `${document.location.href.replace(/\/$/, "")}/play#${name}`;
     setMessage(
       <div style={{ fontSize: "2em" }}>
         Stream available at{" "}
